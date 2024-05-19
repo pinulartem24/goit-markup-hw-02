@@ -1,3 +1,4 @@
+/*=====Global Styles=======*/
 body {
   background-color: #ffffff;
   color: #434455;
@@ -12,6 +13,7 @@ ul,
 ol {
   list-style-type: none;
 }
+/*========================*/
 
 /*=====Header=====*/
 .logo {
@@ -57,6 +59,7 @@ ol {
 .address-link:focus {
   color: #404bbf;
 }
+/*======================*/
 
 /*=====Section Hero=====*/
 .hero {
@@ -90,3 +93,61 @@ ol {
   background-color: #404bbf;
   cursor: pointer;
 }
+/*=========================*/
+
+/*=====Section Feature=====*/
+.features {
+}
+.features-list {
+}
+.features-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+}
+.features-items {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+/*=========================*/
+
+/*=====Section Team========*/
+.team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-picture {
+}
+.team-item {
+  background-color: #ffffff;
+}
+.team-subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+.team-item-text {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+/*=========================*/
+
+/*====Section Portfolio====*/
